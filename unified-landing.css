@@ -1,0 +1,55 @@
+/* Unified Landing Page Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: #fff;
+}
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+.landing-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.landing-container p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  line-height: 1.4;
+}
+.bot-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+.bot-list li {
+  margin: 0.5rem 0;
+}
+.bot-list a {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.bot-list a:hover {
+  text-decoration: underline;
+}
+.start-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #ffd700;
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 4px;
+}
+.start-btn:hover {
+  background-color: #e5c100;
+}
